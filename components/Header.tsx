@@ -28,6 +28,12 @@ export const Header: React.FC<HeaderProps> = ({ data }) => {
         }
     };
 
+    const handleResumeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+        e.preventDefault();
+        // Open PDF in new tab
+        window.open('/My_resume.pdf', '_blank');
+    };
+
     return (
         <header id="home" className="flex flex-col items-center justify-center text-center py-16">
             <div className="relative mb-6">
@@ -45,11 +51,11 @@ export const Header: React.FC<HeaderProps> = ({ data }) => {
 
             <div className="mt-8 flex items-center justify-center gap-3">
                 <a 
-                    href="#resume" 
-                    onClick={(e) => handleScrollClick(e, 'resume')}
+                    href="/My_resume.pdf" 
+                    onClick={handleResumeClick}
                     className="inline-flex items-center justify-center px-5 py-2 text-sm font-semibold text-white bg-indigo-600 rounded-md hover:bg-indigo-700 transition-colors duration-300 shadow-sm"
                 >
-                    <i className="fa-solid fa-arrow-down mr-2"></i>
+                    <i className="fa-solid fa-file-pdf mr-2"></i>
                     View Resume
                 </a>
                 <SocialLinkButton link={data.contact.github} />

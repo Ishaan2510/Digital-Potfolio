@@ -6,10 +6,10 @@ export const portfolioData: PortfolioData = {
   tagline: 'Learning through curiosity and creation.',
   program: 'B.Tech Computer Science & Eng. / B.S. Data Science',
   institution: 'Pandit Deendayal Energy University / IIT Madras',
-  contactEmail: 'Ishaan1263745@gmail.com',
+  contactEmail: 'ishaangoswami735@gmail.com',
   contact: {
     phone: { name: '+91 9265311083', url: 'tel:+919265311083', icon: 'fa-phone' },
-    email: { name: 'Ishaan1263745@gmail.com', url: 'mailto:Ishaan1263745@gmail.com', icon: 'fa-envelope' },
+    email: { name: 'ishaangoswami735@gmail.com', url: 'mailto:ishaangoswami735@gmail.com', icon: 'fa-envelope' },
     linkedin: { name: 'LinkedIn', url: 'https://www.linkedin.com/in/ishaan-goswami-796814282/', icon: 'fa-brands fa-linkedin' },
     github: { name: 'GitHub', url: 'https://github.com/Ishaan2510', icon: 'fa-brands fa-github' },
   },
