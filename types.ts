@@ -112,6 +112,7 @@ export interface PortfolioData {
   tagline: string;
   program: string;
   institution: string;
+  submissionDate: string;
   contactEmail: string;
   contact: ContactInfo;
   education: EducationEntry[];

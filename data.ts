@@ -6,6 +6,7 @@ export const portfolioData: PortfolioData = {
   tagline: 'Learning through curiosity and creation.',
   program: 'B.Tech Computer Science & Eng. / B.S. Data Science',
   institution: 'Pandit Deendayal Energy University / IIT Madras',
+  submissionDate: '14th November 2025',
   contactEmail: 'ishaangoswami735@gmail.com',
   contact: {
     phone: { name: '+91 9265311083', url: 'tel:+919265311083', icon: 'fa-phone' },

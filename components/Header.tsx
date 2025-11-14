@@ -43,6 +43,7 @@ export const Header: React.FC<HeaderProps> = ({ data }) => {
             
             <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight">{data.fullName}</h1>
             <p className="mt-2 text-md text-slate-600">{data.program}, {data.institution}</p>
+            <p className="mt-2 text-base font-medium text-slate-700">Submission Date: {data.submissionDate}</p>
             <p className="mt-4 text-lg font-semibold text-indigo-600">"{data.tagline}"</p>
             
             <p className="mt-6 max-w-2xl text-slate-600">
